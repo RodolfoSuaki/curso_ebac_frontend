@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <header>
+                <h1>Formulário de Cadastro</h1>
+            </header>
+            <form>
+                <div>
+                    <label for="name">Nome</label>
+                    <input type="name" id="Name">
+                </div>
+                <div>
+                    <label for="email">E-mail</label>
+                    <input type="email" id="Email">
+                </div>
+                <div class="tel">
+                    <label for="tel">Telefone</label>
+                    <input type="tel" id="Tel">
+                </div>
+                <div class="cpf">
+                    <label for="cpf">CPF</label>
+                    <input type="text" id="Cpf">
+                </div>
+                <div>
+                    <label for="end">Endereço</label>
+                    <input type="text" id="End">
+                </div>
+                <div>
+                    <label for="cep">CEP</label>
+                    <input type="text" id="Cep">
+                </div>
+                <div class="form-button">
+                    <input type="button" value="Registrar" id="button-registrar">
+                    <button type="reset">Reset</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="./jquery.mask.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
