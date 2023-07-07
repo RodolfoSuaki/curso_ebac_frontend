@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Filmes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <style>
+        .redimensionar-imagem {
+            max-width: 100%;
+            height: 100%;
+        }
+
+        body{
+            background-color: black;
+        }
+        .container{
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 class="container p-2">TerrorFlix</h1>
+    <div id="carousel-melhores-filmes" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel-melhores-filmes" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carousel-melhores-filmes" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carousel-melhores-filmes" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/cenas/a-quiet-place-scene.jpg" class="d-block w-100 redimensionar-image" alt="./img/cenas/a-quiet-place-scene.jpg">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>A QUIET PLACE</h5>
+                    <p>Não bastará o silêncio</p>
+                </div>
+            </div>
+        <div class="carousel-item">
+            <img src="./img/cenas/drag-me-to-hell-scene.jpg" class="d-block w-100" alt="./img/cenas/a-quiet-place-scene.jpg">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>DRAG ME TO HELL</h5>
+                <p>"O FILME MAIS ASSUSTADOR DA DÉCADA" - ZOO</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="./img/cenas/hereditary-scene.jpg" class="d-block w-100" alt="./img/cenas/a-quiet-place-scene.jpg">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>HEREDITARY</h5>
+                <p>O mal vive nesta família</p>
+            </div>
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-melhores-filmes" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel-melhores-filmes" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button> 
+    </div>
+    <div class="container biblio">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <div class="col p-3 ">
+                <img src="./img/capas/a-quiet-place.webp" class="img-fluid redimensionar-imagem border rounded" alt="">
+            </div>
+            <div class="col p-3 ">
+                <img src="./img/capas/drag-me-to-hell.webp" class="img-fluid redimensionar-imagem border rounded" alt="">
+            </div>
+            <div class="col p-3 ">
+                <img src="./img/capas/exorcist-poster.jpg" class="img-fluid redimensionar-imagem border rounded" alt="">
+            </div>
+            <div class="col p-3 ">
+                <img src="./img/capas/geout.jpg" class="img-fluid redimensionar-imagem border rounded" alt="">
+            </div>
+            <div class="col p-3 ">
+                <img src="./img/capas/hereditary.webp" class="img-fluid redimensionar-imagem border rounded" alt="">
+            </div>
+            <div class="col p-3 ">
+                <img src="./img/capas/insidious.jpg" class="img-fluid redimensionar-imagem border rounded" alt="">
+            </div>
+            <div class="col p-3 ">
+                <img src="./img/capas/invisible-man-capa.webp" class="img-fluid redimensionar-imagem border rounded" alt="">
+            </div>
+            <div class="col p-3 ">
+                <img src="./img/capas/maligno.webp" class="img-fluid redimensionar-imagem border rounded" alt="">
+            </div>
+            <div class="col p-3 ">
+                <img src="./img/capas/midsommar.jpg" class="img-fluid redimensionar-imagem border rounded" alt="">
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
