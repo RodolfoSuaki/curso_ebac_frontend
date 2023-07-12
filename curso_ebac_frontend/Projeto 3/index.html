@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Boardgames</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="p-4 sticky-top">
+        <div class="container d-flex justify-content-between">
+            <h1>Loja de Boardgames</h1>
+            <nav class="navbar navbar-expand-md navbar-light">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav nav-pills mt-2">
+                            <li class="nav-item">
+                                <a class="nav-link active nav-pills" aria-current="page" href="#about">Sobre a loja</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-pills" href="#space">Espaço</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-pills" href="#catalog">Catálogo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-pills" href="#contact">Fale conosco</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>    
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/hall-entrada.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block"></div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/classicos.webp" class="d-block w-100 h-50" alt="...">
+                <div class="carousel-caption d-none d-md-block"></div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/tabuleiro-hd.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block"></div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <section id="about">
+        <div class="container p-5">
+            <div class="row">
+                <div class="col-md-12 col-xxl-4">
+                <img src="./img/sobre.jpg" class="img-fluid w-100" alt="">
+                </div>
+                <div class="mt-3 mt-xxl-0 col-8">
+                    <div>
+                        <h3>Sobre <span>a loja</span></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde, rem.</p>
+                    </div>
+                    <div>
+                        <h3>Sobre <span>o espaço</span></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde, rem.</p>
+                        <ul>
+                            <li>Item 1</li>
+                            <li>Item 2</li>
+                            <li>Item 3</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="p-5" id="space">
+        <h3 class="text-center">Nosso <span>espaço</span></h3>
+        <div class="container text-center p-5">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <img src="./img/happy-hour.webp" class="d-block w-100 mt-2 space-img" alt="">
+                    <div class="text-start mb-5">
+                        <h5 ><span>Para happy-hour,</span></h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, neque.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="./img/lanchonete.jpg" class="d-block w-100 mt-2 space-img" alt="">
+                    <div class="text-start mb-5">
+                        <h5 ><span>Para comer...</span>   </h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, neque.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="./img/jogatina.jpg" class="d-block w-100 mt-2 space-img" alt="">
+                    <div class="text-start mb-5">
+                        <h5 ><span>E claro para JOGAR</span>   </h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, neque.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="catalog" class="p-5">
+        <h3 class="text-center mb-3 pb-md-5">Nosso <span>Catálogo</span></h3>
+        <div class="d-md-flex container">
+            <div class="nav flex-md-column nav-pills me-5 me-md-0 mb-4 row container" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <button class="nav-link active col-6" id="tab-classicos" data-bs-toggle="pill" data-bs-target="#classicos" type="button" role="tab" aria-controls="classicos" aria-selected="true">Clássicos</button>
+                <button class="nav-link col-6" id="tab-ameritrash" data-bs-toggle="pill" data-bs-target="#ameritrash" type="button" role="tab" aria-controls="ameritrash" aria-selected="false">Ameritrash</button>
+                <button class="nav-link col-6" id="tab-eurogames" data-bs-toggle="pill" data-bs-target="#eurogames" type="button" role="tab" aria-controls="eurogames" aria-selected="false">Eurogames</button>
+                <button class="nav-link col-6" id="tab-partygames" data-bs-toggle="pill" data-bs-target="#partygames" type="button" role="tab" aria-controls="partygames" aria-selected="false">Party Games</button>
+            </div>
+            <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="classicos" role="tabpanel" aria-labelledby="tab-classicos" tabindex="0">
+                    <div class="row">
+                        <div class="col-6 col-md-4">
+                            <img src="./img/catan.jpg" class="img-fluid w-100" alt="">
+                            <h5 class="mt-2 mb-4">Catan</h5>
+                        </div>
+                        <div class="col-6 col-md-4">
+                            <img src="./img/catan.jpg" class="img-fluid w-100" alt="">
+                            <h5 class="mt-2 mb-4">Catan</h5>
+                        </div>
+                        <div class="col-6 col-md-4">
+                            <img src="./img/catan.jpg" class="img-fluid w-100" alt="">
+                            <h5 class="mt-2 mb-4">Catan</h5>
+                        </div>
+                        <div class="col-6 col-md-4">
+                            <img src="./img/catan.jpg" class="img-fluid w-100" alt="">
+                            <h5 class="mt-2 mb-4">Catan</h5>
+                        </div>
+                        <div class="col-6 col-md-4">
+                            <img src="./img/catan.jpg" class="img-fluid w-100" alt="">
+                            <h5 class="mt-2 mb-4">Catan</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="ameritrash" role="tabpanel" aria-labelledby="tab-ameritrash" tabindex="0">
+                    <div class="row">
+                        <div class="col-6 col-md-4">
+                            <img src="./img/catan.jpg" class="img-fluid w-100" alt="">
+                            <h5 class="mt-2 mb-4">Catan</h5>
+                        </div>
+                        <div class="col-6 col-md-4">
+                            <img src="./img/catan.jpg" class="img-fluid w-100" alt="">
+                            <h5 class="mt-2 mb-4">Catan</h5>
+                        </div>
+                        <div class="col-6 col-md-4">
+                            <img src="./img/catan.jpg" class="img-fluid w-100" alt="">
+                            <h5 class="mt-2 mb-4">Catan</h5>
+                        </div>
+                        <div class="col-6 col-md-4">
+                            <img src="./img/catan.jpg" class="img-fluid w-100" alt="">
+                            <h5 class="mt-2 mb-4">Catan</h5>
+                        </div>
+                        <div class="col-6 col-md-4">
+                            <img src="./img/catan.jpg" class="img-fluid w-100" alt="">
+                            <h5 class="mt-2 mb-4">Catan</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="eurogames" role="tabpanel" aria-labelledby="tab-eurogames" tabindex="0">
+                    <div class="row">
+                        <div class="col-6 col-md-4">
+                            <img src="./img/catan.jpg" class="img-fluid w-100" alt="">
+                            <h5 class="mt-2 mb-4">Catan</h5>
+                        </div>
+                        <div class="col-6 col-md-4">
+                            <img src="./img/catan.jpg" class="img-fluid w-100" alt="">
+                            <h5 class="mt-2 mb-4">Catan</h5>
+                        </div>
+                        <div class="col-6 col-md-4">
+                            <img src="./img/catan.jpg" class="img-fluid w-100" alt="">
+                            <h5 class="mt-2 mb-4">Catan</h5>
+                        </div>
+                        <div class="col-6 col-md-4">
+                            <img src="./img/catan.jpg" class="img-fluid w-100" alt="">
+                            <h5 class="mt-2 mb-4">Catan</h5>
+                        </div>
+                        <div class="col-6 col-md-4">
+                            <img src="./img/catan.jpg" class="img-fluid w-100" alt="">
+                            <h5 class="mt-2 mb-4">Catan</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="partygames" role="tabpanel" aria-labelledby="tab-partygames" tabindex="0">
+                    <div class="row">
+                        <div class="col-6 col-md-4">
+                            <img src="./img/catan.jpg" class="img-fluid w-100" alt="">
+                            <h5 class="mt-2 mb-4">Catan</h5>
+                        </div>
+                        <div class="col-6 col-md-4">
+                            <img src="./img/catan.jpg" class="img-fluid w-100" alt="">
+                            <h5 class="mt-2 mb-4">Catan</h5>
+                        </div>
+                        <div class="col-6 col-md-4">
+                            <img src="./img/catan.jpg" class="img-fluid w-100" alt="">
+                            <h5 class="mt-2 mb-4">Catan</h5>
+                        </div>
+                        <div class="col-6 col-md-4">
+                            <img src="./img/catan.jpg" class="img-fluid w-100" alt="">
+                            <h5 class="mt-2 mb-4">Catan</h5>
+                        </div>
+                        <div class="col-6 col-md-4">
+                            <img src="./img/catan.jpg" class="img-fluid w-100" alt="">
+                            <h5 class="mt-2 mb-4">Catan</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="p-5">
+        <div class="container">
+            <h3 class="text-center mb-5">Fale <span>Conosco</span></h3>
+            <div class="row">
+                <form class="col-12 col-md-6">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Seu nome</label>
+                        <input type="name" class="form-control" id="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Seu e-mail</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="tel" class="form-label">Seu telefone (opcional)</label>
+                        <input type="tel" class="form-control" id="tel">
+                    </div>
+                    <div class="mb-3">
+                        <label for="msg" class="form-label">Sua mensagem</label>
+                        <textarea class="form-control" id="msg" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>    
+                <div class="redes_sociais col-12 col-md-6 mt-5 mt-md-0">
+                    <div>
+                        <h5>Redes sociais</h5>
+                        <a href=""><i class="bi bi-instagram fs-2"></i></a>
+                        <a href=""><i class="bi bi-facebook fs-2"></i></a>
+                        <a href=""><i class="bi bi-whatsapp fs-2"></i></a>
+                        <a href=""><i class="bi bi-twitter fs-2"></i></a>
+                        <h5 class="pt-4">Endereço</h5>
+                        <p>Rua bootstrap, 5 n200, Bairro CDN - Programação - PR</p>
+                        <iframe class="overflow-auto" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.4167130156943!2d-49.05667522373802!3d-22.337889017789184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf67a76b0ecd6f%3A0x2a550cb02959b910!2zTMO6ZGljYQ!5e0!3m2!1spt-BR!2sbr!4v1688955037731!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+</html>
